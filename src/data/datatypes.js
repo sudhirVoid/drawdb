@@ -1616,15 +1616,6 @@ const mssqlTypesBase = {
     defaultSize: 255,
     hasQuotes: true,
   },
-  'NVARCHAR(MAX)': {
-    type: "NVARCHAR",
-    checkDefault: (field) => true,
-    hasCheck: true,
-    isSized: false,
-    hasPrecision: false,
-    defaultSize: 'MAX',
-    hasQuotes: true,
-  },
   TEXT: {
     type: "TEXT",
     checkDefault: (field) => true,
